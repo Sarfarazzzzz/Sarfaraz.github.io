@@ -4,7 +4,7 @@
 
 **Languages & Tools:** Python, SQL, R, SAS, HTML/CSS, TensorFlow, PyTorch, OpenCV, NumPy, PySpark, Microsoft Office (PowerPoint, Word, Excel), Tableau, Power BI, NoSQL, MongoDB, Git  
 
-**Data Science & Data Analytics:** Predictive Modeling, Statistical Modeling, Hypothesis Testing, Feature Engineering, Statistics  
+**Data Science & Data Analytics:** Predictive Modeling, Statistical Modeling, Hypothesis Testing, Feature Engineering, Statistics   
 
 **Database Management:**  ETL Pipelines, Snowflake, Databricks, RDBMS, A/B Testing  
 
