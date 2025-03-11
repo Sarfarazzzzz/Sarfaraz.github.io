@@ -1,21 +1,17 @@
 ## Turning Data into Insights | Engineering Scalable Solutions | Driving Innovation
 
-#### Skills: 
-
-**Languages & Tools:** Python, SQL, R, SAS, HTML/CSS, TensorFlow, PyTorch, OpenCV, NumPy, PySpark, Microsoft Office (PowerPoint, Word, Excel), Tableau, Power BI, NoSQL, MongoDB, Git  
-
-**Data Science & Data Analytics:** Predictive Modeling, Statistical Modeling, Hypothesis Testing, Feature Engineering, Statistics   
-
-**Database Management:**  ETL Pipelines, Snowflake, Databricks, RDBMS, A/B Testing  
-
-**Software Engineering:**  Data Structures & Algorithms, API Development, CI/CD Pipelines, Linux/Unix, TCP/IP  
-
-**Business & Communication:**  Business Strategy, Operations Research, Problem Solving, Presentation & Communication Skills  
-
 
 ## Education						       		
 - M.S., Data Science | The George Washington University (_May 2026_)	 			        		
 - B.Tech., Electronics and Communication Engineering | VNR Vignana Jyothi Institute of Engineering and Technology (_May 2023_)
+
+#### Technical Skills: 
+
+- Languages & Tools: Python, SQL, R, SAS, HTML/CSS, TensorFlow, PyTorch, OpenCV, NumPy, PySpark, Microsoft Office (PowerPoint, Word, Excel), Tableau, Power BI, NoSQL, MongoDB, Git  
+- Data Science & Data Analytics: Predictive Modeling, Statistical Modeling, Hypothesis Testing, Feature Engineering, Statistics   
+- Database Management:  ETL Pipelines, Snowflake, Databricks, RDBMS, A/B Testing  
+- Software Engineering:  Data Structures & Algorithms, API Development, CI/CD Pipelines, Linux/Unix, TCP/IP  
+- Business & Communication:  Business Strategy, Operations Research, Problem Solving, Presentation & Communication Skills  
 
 ## Work Experience
 **Software Engineer @ Tata Consultancy Services (TCS) (_June 2023 - June 2024_)**
@@ -64,7 +60,7 @@ Network (CNN) for multi-stage driver alertness classification.
 
 ## Certifications
 
-Essential Mathematics for Machine Learning, Introduction to Machine Learning, Deep Learning (National Programme on Technology Enhanced Learning (NPTEL)), 
-JavaScript Algorithms and Data Structures (FreeCodeCamp), 
-Introduction to SQL (Coursera - UM), 
-Introduction to programming using Python (Udemy).
+- Essential Mathematics for Machine Learning, Introduction to Machine Learning, Deep Learning (National Programme on Technology Enhanced Learning (NPTEL)), 
+- JavaScript Algorithms and Data Structures (FreeCodeCamp), 
+- Introduction to SQL (Coursera - UM), 
+- Introduction to programming using Python (Udemy).
