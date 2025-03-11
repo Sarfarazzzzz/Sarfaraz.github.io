@@ -2,8 +2,8 @@
 
 
 ## Education						       		
-M.S., Data Science | The George Washington University (_May 2026_)	 			        		
-B.Tech., Electronics and Communication Engineering | VNR Vignana Jyothi Institute of Engineering and Technology (_May 2023_)
+- `M.S., Data Science | The George Washington University (May 2026)`
+- `B.Tech., Electronics and Communication Engineering | VNR Vignana Jyothi Institute of Engineering and Technology (May 2023)`
 
 #### Technical Skills: 
 
