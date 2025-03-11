@@ -9,8 +9,8 @@
 **Business & Communication:** Business Strategy, Operations Research, Problem Solving, Presentation & Communication Skills
 
 ## Education						       		
-- M.S., Data Science	| The George Washington University (_May 2026_)	 			        		
-- B.Tech., Electronics and Communication Engineering | VNR Vignana Jyothi Institute of Engineering and Technology (_May 2023_)
+- M.S., Data Science	                     |    The George Washington University (_May 2026_)	 			        		
+- B.Tech., Electronics and Communication Engineering             | VNR Vignana Jyothi Institute of Engineering and Technology (_May 2023_)
 
 ## Work Experience
 **Software Engineer @ Tata Consultancy Services (TCS) (_June 2023 - June 2024_)**
