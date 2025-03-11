@@ -3,10 +3,10 @@
 #### Skills: 
 
 **Languages & Tools:** Python, SQL, R, SAS, HTML/CSS, TensorFlow, PyTorch, OpenCV, NumPy, PySpark, Microsoft Office (PowerPoint, Word, Excel), Tableau, Power BI, NoSQL, MongoDB, Git
-**Data Science & Data Analytics:** Predictive Modeling, Statistical Modeling, Hypothesis testing, Feature Engineering, Statistics
-**Database Management:** ETL Pipelines, Snowflake, Databricks, RDBMS, A/B Testing
-**Software Engineering:** Data Structures & Algorithms, API Development, CI/CD Pipelines, Linux/Unix, TCP/IP
-**Business & Communication:** Business Strategy, Operations Research, Problem Solving, Presentation & Communication Skills
+\**Data Science & Data Analytics:** Predictive Modeling, Statistical Modeling, Hypothesis testing, Feature Engineering, Statistics
+\**Database Management:** ETL Pipelines, Snowflake, Databricks, RDBMS, A/B Testing
+\**Software Engineering:** Data Structures & Algorithms, API Development, CI/CD Pipelines, Linux/Unix, TCP/IP
+\**Business & Communication:** Business Strategy, Operations Research, Problem Solving, Presentation & Communication Skills
 
 ## Education						       		
 - M.S., Data Science	                     |    The George Washington University (_May 2026_)	 			        		
