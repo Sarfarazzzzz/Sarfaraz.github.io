@@ -2,8 +2,8 @@
 
 
 ## Education						       		
-- M.S., Data Science | The George Washington University (_May 2026_)	 			        		
-- B.Tech., Electronics and Communication Engineering | VNR Vignana Jyothi Institute of Engineering and Technology (_May 2023_)
+M.S., Data Science | The George Washington University (_May 2026_)	 			        		
+B.Tech., Electronics and Communication Engineering | VNR Vignana Jyothi Institute of Engineering and Technology (_May 2023_)
 
 #### Technical Skills: 
 
@@ -14,7 +14,7 @@
 - Business & Communication:  Business Strategy, Operations Research, Problem Solving, Presentation & Communication Skills  
 
 ## Work Experience
-**Software Engineer @ Tata Consultancy Services (TCS) (_June 2023 - June 2024_)**
+**Software Engineer @ Tata Consultancy Services (_June 2023 - June 2024_)**
 -  Designed and developed software solutions using Python, enhancing operational efficiency by 15%.
 -  Implemented end-to-end automated testing scripts, utilizing selenium, resulted in lowering the software regression testing time effectively.
 -  Integrated and maintained CI/CD pipelines using Jenkins to automate testing, and deployment processes, reducing deployment time by 30%.
@@ -23,7 +23,7 @@
 -  Leveraged tools like Apache Spark, SQL, and Python to integrate diverse data sources, enabling actionable insights and real-time reporting
 for better business decision-making.
 
-**Data Analyst Intern  @ Tata Consultancy Services (TCS) (_Mar 2023 - May 2023_)**
+**Data Analyst Intern  @ Tata Consultancy Services (_Mar 2023 - May 2023_)**
 - Collected, cleaned, and analyzed large datasets employing Python and SQL, enabling data-driven decision-making.
 - Conducted EDA to identify trends, correlations, and anomalies, improving reporting accuracy by 20% and designed interactive dashboards
 in Tableau, providing insights on customer behavior.
