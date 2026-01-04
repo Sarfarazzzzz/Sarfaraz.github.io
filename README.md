@@ -1,66 +1,87 @@
-## Turning Data into Insights | Engineering Scalable Solutions | Driving Innovation
+# Hi, I'm Mohammed Ismail Sarfaraz Shaik 👋
 
+### Data Scientist | ML Engineer | Master's Student @ GWU
 
-## Education						       		
-- **M.S., Data Science** | The George Washington University&nbsp;(_May 2026_)  
-- **B.Tech., Electronics and Communication Engineering** | VNR Vignana Jyothi Institute of Engineering and Technology&nbsp;(_May 2023_)
+I am a Data Scientist and Machine Learning Engineer who operates at the intersection of **statistical analysis** and **software engineering**. I don’t just build models; I build the pipelines that feed them and the systems that deploy them.
 
-#### Technical Skills: 
+Currently pursuing my **M.S. in Data Science** at The George Washington University. Previously, I worked as a **Software Engineer at TCS**, designing scalable ETL pipelines and automating workflows for healthcare and finance clients.
 
-- Languages & Tools: Python, SQL, R, SAS, HTML/CSS, TensorFlow, PyTorch, OpenCV, NumPy, PySpark, Microsoft Office (PowerPoint, Word, Excel), Tableau, Power BI, NoSQL, MongoDB, Git  
-- Data Science & Data Analytics: Predictive Modeling, Statistical Modeling, Hypothesis Testing, Feature Engineering, Statistics   
-- Database Management:  ETL Pipelines, Snowflake, Databricks, RDBMS, A/B Testing  
-- Software Engineering:  Data Structures & Algorithms, API Development, CI/CD Pipelines, Linux/Unix, TCP/IP  
-- Business & Communication:  Business Strategy, Operations Research, Problem Solving, Presentation & Communication Skills  
+---
 
-## Work Experience
-**Software Engineer @ Tata Consultancy Services (_June 2023 - June 2024_)**
--  Designed and developed software solutions using Python, enhancing operational efficiency by 15%.
--  Implemented end-to-end automated testing scripts, utilizing selenium, resulted in lowering the software regression testing time effectively.
--  Integrated and maintained CI/CD pipelines using Jenkins to automate testing, and deployment processes, reducing deployment time by 30%.
--  Optimized data validation scripts to ensure integrity across large datasets, minimizing manual errors by 20%.
--  Collaborated with cross-functional teams to implement ETL processes, optimizing data transformation and reporting.
--  Leveraged tools like Apache Spark, SQL, and Python to integrate diverse data sources, enabling actionable insights and real-time reporting
-for better business decision-making.
+## 🛠 Technical Arsenal
 
-**Data Analyst Intern  @ Tata Consultancy Services (_Mar 2023 - May 2023_)**
-- Collected, cleaned, and analyzed large datasets employing Python and SQL, enabling data-driven decision-making.
-- Conducted EDA to identify trends, correlations, and anomalies, improving reporting accuracy by 20% and designed interactive dashboards
-in Tableau, providing insights on customer behavior.
-- Streamlined repetitive data extraction and processing tasks with Python, reducing operational time by 30% .
-- Worked on performance tuning of queries in relational databases, improving system responsiveness by 25%.
-- Coordinated with cross-organizational teams to define metrics and KPIs, ensuring alignment with business objectives.
+| Category | Stack |
+|:--- |:--- |
+| **Languages** | Python, SQL, R, C/C++, SAS |
+| **Machine Learning** | PyTorch, TensorFlow, Scikit-learn, OpenCV, LangChain, Hugging Face |
+| **Data Engineering** | AWS (EC2, S3), PySpark, Airflow, Jenkins, Docker, Snowflake, Databricks |
+| **Visualization** | Tableau, Power BI, Streamlit, Excel |
+| **Concepts** | RAG, MLOps, A/B Testing, Statistical Modeling, CI/CD |
 
-## Projects
-### Content-Based Movie Recommendation System
+---
 
--  Constructed a content-based recommendation system based on user input by leveraging natural language processing (NLP) techniques.
--  Executed in Python using Pandas, Scikit-learn, and nltk, ensuring scalability and interpretability.
--  Applied TF-IDF vectorization and cosine similarity to compare user preferences with movie descriptions from a curated dataset.
--  Structured a modular and efficient pipeline for text processing, similarity computation, and ranked recommendations.
+## 🚀 Featured Projects
 
+### ☁️ [AWS CloudGuide - Cloud Architecture Assistant](LINK_TO_REPO_HERE)
+*A Hybrid RAG system fusing dense and sparse retrieval to answer AWS technical queries.*
+- **Architected** hybrid RAG using dense (**bge-m3**) and sparse (**BM25**) retrieval via RRF, resolving semantic ambiguity across **100k+** AWS pages.
+- **Scaled** batched GPU pipeline (**PyTorch, T4**) handling **800k+** vectors using recursive chunking for context preservation.
+- **Deployed** LLM-powered Q&A system (**Qwen-2.5-7B**) via Hugging Face achieving **sub-200ms** latency for cited answers.
+- **Tech Stack:** Python, LangChain, AWS, PyTorch, Hugging Face.
 
-### Data Analysis and Modeling: OKCupid Dataset
+### 🎨 [Auto Image Restoration & Colorization](LINK_TO_REPO_HERE)
+*Deep Learning pipeline for restoring and colorizing images using Autoencoders.*
+- **Orchestrated** scalable **PyTorch** pipeline on **AWS EC2** processing **118k** COCO images using Mixed Precision to optimize training.
+- **Pioneered** a **ResNet-18 U-Net** and VAE-regularized framework, achieving **85%** model compression and **0.496 SSIM**.
+- **Launched** real-time **Streamlit** app with Saturation Boosting, solving regression-to-the-mean bias.
+- **Tech Stack:** PyTorch, AWS EC2, Streamlit, OpenCV.
 
--  Performed exploratory data analysis (EDA) to uncover user behavior patterns through Python.
--  Accomplished data cleaning and preprocessing, handling missing values and outliers to prepare the dataset for analysis.
--  Built a Random Forest Classifier to predict proposal acceptance, achieving an accuracy of 95%.
+### 🏏 [IPL Live Match Win Predictor](LINK_TO_REPO_HERE)
+*Real-time win probability predictor for cricket matches.*
+- **Developed** a live, ball-by-ball win probability predictor using **XGBoost** trained on **500+** historical matches.
+- **Stabilized** early-game prediction volatility by designing a confidence-weighted blend-in algorithm, reducing uncertainty by **60%**.
+- **Deployed** app visualizing real-time probabilities; optimized for **sub-500ms** inference latency.
+- **Tech Stack:** XGBoost, Python, Streamlit, Matplotlib.
 
-### Exploring the demographics of VR in Education: Clustering Analysis of VR Learning Patterns and Student Profiles
+### 🍎 [Food Desert Prediction (3rd Place Winner)](LINK_TO_REPO_HERE)
+*Predicting food insecurity using ensemble models.*
+- **Derived** features from **10+ datasets**; trained ensemble models (**Random Forest, CatBoost**) to predict at-risk census tracts with **88% accuracy**.
+- **Proposed** data-driven policy recommendations (tax incentives, mobile markets) to prevent food desert formation.
+- **Tech Stack:** Python, Scikit-learn, Pandas, GeoPandas.
 
--  Carried out clustering analysis on the dataset to examine the relationship between VR engagement, student profiles, and academic outcomes.
--  Utilized Python for clustering and regression analysis to identify distinguishing features between high and low-performing student clusters.
+---
 
+## 💼 Work Experience
 
-### Driver Drowsiness Detection System
+**Data Analyst** | *George Washington University* (Mar 2025 - Present)
+- Identified **$1M+** in misallocated funding by designing **Python** anomaly detection scripts.
+- Built automated validation pipelines reducing data errors by **20%** for executive forecasting.
+- Integrated multi-source data into **Tableau**, tracking **20+ KPIs** and driving a strategy shift that increased audience retention by **25%**.
 
--  Developed a robust predictive model leveraging Haar Cascade Classifier for real-time eye region detection and a deep Convolutional Neural
-Network (CNN) for multi-stage driver alertness classification.
--  Deployed the system using TensorFlow, Keras, and OpenCV, achieving a 95% success rate in drowsiness detection and integrated real-time data processing to monitor driver fatigue and alertness.
+**Software Engineer** | *Tata Consultancy Services* (Jun 2023 - Jun 2024)
+- Engineered ETL pipelines (**PySpark/Airflow**) for **50GB+** daily data, optimizing batch time by **30%** (4h → 2.8h).
+- Enabled real-time insights for **Finance/Healthcare** clients by orchestrating flows across **12+ sources**.
+- Engineered **CI/CD** pipelines (**Jenkins**) reducing deployment cycles by **30%** across **5+ teams**.
 
-## Certifications
+**Data Analyst Intern** | *Tata Consultancy Services* (Mar 2023 - May 2023)
+- Automated extraction pipelines (**Python/SQLAlchemy**) serving 12+ stakeholders; reduced latency by **30%**.
+- Delivered BI solutions for a Global Fintech Client, defining **15+ strategic KPIs** via **Tableau** dashboards.
 
-- Essential Mathematics for Machine Learning, Introduction to Machine Learning, Deep Learning (National Programme on Technology Enhanced Learning (NPTEL)), 
-- JavaScript Algorithms and Data Structures (FreeCodeCamp), 
-- Introduction to SQL (Coursera - UM), 
-- Introduction to programming using Python (Udemy).
+---
+
+## 🎓 Education
+
+**M.S., Data Science** | *The George Washington University* (Expected May 2026)
+*Relevant Coursework:* Machine Learning, Deep Learning, NLP, Data Warehousing, Time Series Analysis.
+
+**B.Tech., Electronics and Communication Engineering** | *VNR Vignana Jyothi Institute* (May 2023)
+
+---
+
+##  Certifications
+
+- Google Data Analytics – Google 
+- Machine Learning Specialization (Deep Learning, Introduction to ML, Essential Mathematics for ML) – NPTEL 
+- Introduction to SQL – University of Michigan 
+- Intro to R – DataCamp 
+- Python for Data Science – Udemy
