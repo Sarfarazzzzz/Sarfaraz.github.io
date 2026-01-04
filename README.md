@@ -22,28 +22,28 @@ Currently pursuing my **M.S. in Data Science** at The George Washington Universi
 
 ## 🚀 Featured Projects
 
-### ☁️ [AWS CloudGuide - Cloud Architecture Assistant](LINK_TO_REPO_HERE)
+### ☁️ [AWS CloudGuide - Cloud Architecture Assistant](https://github.com/Sarfarazzzzz/Final-Project-Group-BotBuilders/tree/main)
 *A Hybrid RAG system fusing dense and sparse retrieval to answer AWS technical queries.*
 - **Architected** hybrid RAG using dense (**bge-m3**) and sparse (**BM25**) retrieval via RRF, resolving semantic ambiguity across **100k+** AWS pages.
 - **Scaled** batched GPU pipeline (**PyTorch, T4**) handling **800k+** vectors using recursive chunking for context preservation.
 - **Deployed** LLM-powered Q&A system (**Qwen-2.5-7B**) via Hugging Face achieving **sub-200ms** latency for cited answers.
 - **Tech Stack:** Python, LangChain, AWS, PyTorch, Hugging Face.
 
-### 🎨 [Auto Image Restoration & Colorization](LINK_TO_REPO_HERE)
+### 🎨 [Auto Image Restoration & Colorization](https://final-project-group3demo.streamlit.app/)
 *Deep Learning pipeline for restoring and colorizing images using Autoencoders.*
 - **Orchestrated** scalable **PyTorch** pipeline on **AWS EC2** processing **118k** COCO images using Mixed Precision to optimize training.
 - **Pioneered** a **ResNet-18 U-Net** and VAE-regularized framework, achieving **85%** model compression and **0.496 SSIM**.
 - **Launched** real-time **Streamlit** app with Saturation Boosting, solving regression-to-the-mean bias.
 - **Tech Stack:** PyTorch, AWS EC2, Streamlit, OpenCV.
 
-### 🏏 [IPL Live Match Win Predictor](LINK_TO_REPO_HERE)
+### 🏏 [IPL Live Match Win Predictor](https://iplprediction-tywz8ytnoa5carjvxla3w6.streamlit.app/)
 *Real-time win probability predictor for cricket matches.*
 - **Developed** a live, ball-by-ball win probability predictor using **XGBoost** trained on **500+** historical matches.
 - **Stabilized** early-game prediction volatility by designing a confidence-weighted blend-in algorithm, reducing uncertainty by **60%**.
 - **Deployed** app visualizing real-time probabilities; optimized for **sub-500ms** inference latency.
 - **Tech Stack:** XGBoost, Python, Streamlit, Matplotlib.
 
-### 🍎 [Food Desert Prediction (3rd Place Winner)](LINK_TO_REPO_HERE)
+### 🍎 [Food Desert Prediction (3rd Place Winner)](https://github.com/Sarfarazzzzz/DSA-Datathon-2025/tree/EDA/Sarfaraz)
 *Predicting food insecurity using ensemble models.*
 - **Derived** features from **10+ datasets**; trained ensemble models (**Random Forest, CatBoost**) to predict at-risk census tracts with **88% accuracy**.
 - **Proposed** data-driven policy recommendations (tax incentives, mobile markets) to prevent food desert formation.
