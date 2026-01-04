@@ -72,6 +72,7 @@ Currently pursuing my **M.S. in Data Science** at The George Washington Universi
 ## 🎓 Education
 
 **M.S., Data Science** | *The George Washington University* (Expected May 2026)
+
 *Relevant Coursework:* Machine Learning, Deep Learning, NLP, Data Warehousing, Time Series Analysis.
 
 **B.Tech., Electronics and Communication Engineering** | *VNR Vignana Jyothi Institute* (May 2023)
