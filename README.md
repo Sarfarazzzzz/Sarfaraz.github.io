@@ -8,7 +8,7 @@
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:m.shaik@gwu.edu)
 [![Resume](https://img.shields.io/badge/Resume-2C5BB4?style=for-the-badge&logo=readthedocs&logoColor=white)](RESUME_PDF_URL)
 
-📍 Washington, D.C.
+📍 United States
 
 ---
 
@@ -72,7 +72,7 @@ Recently completed my **M.S. in Data Science at The George Washington University
 
 ---
 
-### 🚗 [EV Charging Station Placement Optimization](EV_REPO_URL)
+### 🚗 [EV Charging Station Placement Optimization](https://github.com/Sarfarazzzzz/Optimizing-EV-Charging-Station-Placement-Using-Data-Driven-Analysis)
 > **Six-phase MILP optimization across 37k US census tracts**
 
 **Problem:** Public EV charging infrastructure can't be deployed everywhere — planners need data-driven tradeoffs between coverage, cost, and equity mandates.
@@ -94,7 +94,7 @@ Recently completed my **M.S. in Data Science at The George Washington University
 
 ---
 
-### 🏥 [Hospital Readmissions Prediction](READMISSIONS_REPO_URL)
+### 🏥 [Hospital Readmissions Prediction](https://github.com/Sarfarazzzzz/Predicting-Hospital-Readmissions)
 > **ML pipeline predicting 30-day clinical readmissions**
 
 **Problem:** US hospitals lose billions annually on preventable readmissions — accurate risk scoring can target interventions where they matter.
@@ -116,7 +116,7 @@ Recently completed my **M.S. in Data Science at The George Washington University
 
 ---
 
-### 🍎 [Food Desert Prediction — 🏆 3rd Place, DSA Datathon 2025](FOOD_DESERT_REPO_URL)
+### 🍎 [Food Desert Prediction — 🏆 3rd Place, DSA Datathon 2025](https://github.com/Sarfarazzzzz/DSA-Datathon-2025)
 > **Ensemble ML for food insecurity prediction**
 
 **Problem:** Identifying at-risk communities for food insecurity is critical for targeted policy intervention — but requires fusing socioeconomic, geographic, and access-to-supply signals.
@@ -155,7 +155,7 @@ Supported a global capital markets client — tuned SQL queries on OLTP systems 
 
 ## 📈 Beyond the Day Job
 
-I also built and scaled a digital content platform (Instagram: *@never_before_ever_after*) to **15,000+ organic followers** — applying data-driven content strategy, audience segmentation, and engagement analytics in practice. Understanding what makes humans return to a feed taught me more about retention metrics than any course could.
+I also built and scaled a digital content platform (Instagram: *@never_beforu_ever_afteru*) to **15,000+ organic followers** — applying data-driven content strategy, audience segmentation, and engagement analytics in practice. Understanding what makes humans return to a feed taught me more about retention metrics than any course could.
 
 ---
 
