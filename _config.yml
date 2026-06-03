@@ -1,5 +1,56 @@
-title: Mohammed Shaik | Data Scientist & ML Engineer
-logo: ppp.png
-description: M.S. Data Science @ GWU. Bridging the gap between complex statistical analysis and scalable software engineering.
-show_downloads: True
-theme: jekyll-theme-hacker
+# Beautiful Jekyll configuration
+# Setup: replace your existing _config.yml with this file
+
+remote_theme: daattali/beautiful-jekyll@6.0.1
+
+# Site metadata
+title: Mohammed Shaik
+description: Data Scientist & ML Engineer · Building production ML & GenAI systems end-to-end
+url: "https://sarfarazzzzz.github.io"
+author:
+  name: Mohammed Ismail Sarfaraz Shaik
+  email: m.shaik@gwu.edu
+
+# Profile photo - add your headshot to /assets/img/avatar.jpg
+avatar: "/assets/img/avatar.jpg"
+round-avatar: true
+
+# Social links (appear in nav + footer)
+social-network-links:
+  email: m.shaik@gwu.edu
+  github: Sarfarazzzzz
+  linkedin: mohammed-ismail-sarfaraz-shaik-87886b20a
+
+# Navigation
+navbar-links:
+  About: "#about"
+  Projects: "#featured-projects"
+  Experience: "#experience"
+  Resume: "RESUME_PDF_URL_HERE"
+
+# Footer
+footer-links:
+  email: m.shaik@gwu.edu
+  github: Sarfarazzzzz
+  linkedin: mohammed-ismail-sarfaraz-shaik-87886b20a
+
+# Theme settings
+navbar-col: "#1F2937"
+navbar-text-col: "#FFFFFF"
+navbar-children-col: "#3B82F6"
+page-col: "#FFFFFF"
+text-col: "#1F2937"
+link-col: "#2563EB"
+hover-col: "#1D4ED8"
+footer-col: "#1F2937"
+footer-text-col: "#9CA3AF"
+footer-link-col: "#FFFFFF"
+
+# Misc
+title-on-all-pages: true
+excerpt_length: 50
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
