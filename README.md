@@ -6,7 +6,7 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohammed-ismail-sarfaraz-shaik-87886b20a/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Sarfarazzzzz)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:m.shaik@gwu.edu)
-[![Resume](https://img.shields.io/badge/Resume-2C5BB4?style=for-the-badge&logo=readthedocs&logoColor=white)](RESUME_PDF_URL)
+[![Resume](https://img.shields.io/badge/Resume-2C5BB4?style=for-the-badge&logo=readthedocs&logoColor=white)](./Mohammed_Shaik_Resume.pdf)
 
 📍 United States
 
