@@ -4,17 +4,13 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Mohammed Shaik · Data Scientist & ML Engineer</title>
-  <meta name="description" content="Mohammed Ismail Sarfaraz Shaik — Data Scientist & ML Engineer. Building production ML & GenAI systems end-to-end. M.S. Data Science @ The George Washington University." />
+  <meta name="description" content="Mohammed Ismail Sarfaraz Shaik. Data Scientist & ML Engineer. Building production ML & GenAI systems end-to-end. M.S. Data Science @ The George Washington University." />
 
-  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700&family=Geist:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 
-  <!-- Icons (Phosphor) -->
   <script src="https://unpkg.com/@phosphor-icons/web"></script>
-
-  <!-- AOS for scroll animations -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
   <style>
@@ -32,8 +28,8 @@
       --accent-soft: rgba(37, 99, 235, 0.08);
       --border: #E5E0D5;
       --card-bg: #FFFFFF;
-      --serif: 'Fraunces', Georgia, serif;
-      --sans: 'Geist', -apple-system, system-ui, sans-serif;
+      --serif: 'Playfair Display', Georgia, serif;
+      --sans: 'Inter', -apple-system, system-ui, sans-serif;
       --mono: 'JetBrains Mono', monospace;
       --radius: 14px;
       --radius-sm: 8px;
@@ -43,7 +39,6 @@
     }
 
     * { box-sizing: border-box; margin: 0; padding: 0; }
-
     html { scroll-behavior: smooth; }
 
     body {
@@ -56,14 +51,13 @@
       -moz-osx-font-smoothing: grayscale;
     }
 
-    /* ---------- LAYOUT ---------- */
     .layout {
       display: grid;
       grid-template-columns: 320px 1fr;
       min-height: 100vh;
     }
 
-    /* ---------- SIDEBAR ---------- */
+    /* SIDEBAR */
     .sidebar {
       background: var(--sidebar-bg);
       color: var(--sidebar-text);
@@ -115,7 +109,6 @@
       line-height: 1.15;
       letter-spacing: -0.01em;
       text-align: center;
-      font-variation-settings: "opsz" 144;
     }
 
     .sidebar-role {
@@ -150,7 +143,6 @@
       align-items: center;
       gap: 12px;
       transition: all 0.2s ease;
-      position: relative;
     }
 
     .sidebar-nav a:hover {
@@ -210,9 +202,9 @@
       font-family: var(--mono);
     }
 
-    /* ---------- MAIN CONTENT ---------- */
+    /* MAIN */
     .main {
-      padding: 80px 80px 80px;
+      padding: 56px 80px 80px;
       max-width: 1100px;
     }
 
@@ -243,29 +235,26 @@
 
     h1 {
       font-family: var(--serif);
-      font-weight: 400;
-      font-size: clamp(48px, 6vw, 76px);
-      line-height: 1.05;
+      font-weight: 500;
+      font-size: clamp(48px, 6vw, 72px);
+      line-height: 1.1;
       letter-spacing: -0.02em;
       margin-bottom: 24px;
-      font-variation-settings: "opsz" 144;
     }
 
     h1 em {
       font-style: italic;
       font-weight: 500;
       color: var(--accent);
-      font-variation-settings: "opsz" 144;
     }
 
     h2 {
       font-family: var(--serif);
       font-weight: 500;
-      font-size: clamp(32px, 4vw, 44px);
-      line-height: 1.1;
+      font-size: clamp(32px, 4vw, 42px);
+      line-height: 1.15;
       letter-spacing: -0.015em;
-      margin-bottom: 24px;
-      font-variation-settings: "opsz" 144;
+      margin-bottom: 20px;
     }
 
     h3 {
@@ -275,16 +264,15 @@
       line-height: 1.25;
       letter-spacing: -0.01em;
       margin-bottom: 8px;
-      font-variation-settings: "opsz" 36;
     }
 
     p { color: var(--text-soft); font-size: 16px; }
     p + p { margin-top: 16px; }
     .lead { font-size: 19px; color: var(--text); }
 
-    /* ---------- HERO ---------- */
+    /* HERO */
     .hero {
-      padding-top: 60px;
+      padding-top: 24px;
       margin-bottom: 80px;
     }
 
@@ -292,26 +280,25 @@
       font-family: var(--mono);
       color: var(--accent);
       font-size: 14px;
-      margin-bottom: 24px;
+      margin-bottom: 20px;
       letter-spacing: 0.05em;
     }
 
-    .hero h1 { margin-bottom: 32px; }
+    .hero h1 { margin-bottom: 28px; }
 
     .hero-quote {
       max-width: 680px;
-      font-size: 19px;
+      font-size: 18px;
       color: var(--text-soft);
       line-height: 1.7;
-      margin-bottom: 16px;
     }
 
     .hero-quote strong { color: var(--text); font-weight: 500; }
 
     .hero-cta {
       display: flex;
-      gap: 16px;
-      margin-top: 40px;
+      gap: 14px;
+      margin-top: 36px;
       flex-wrap: wrap;
     }
 
@@ -352,7 +339,55 @@
       color: var(--bg);
     }
 
-    /* ---------- ABOUT ---------- */
+    /* HERO STATS — fills the empty viewport below CTAs */
+    .hero-stats {
+      display: flex;
+      align-items: center;
+      gap: 36px;
+      margin-top: 52px;
+      padding-top: 32px;
+      border-top: 1px solid var(--border);
+      flex-wrap: wrap;
+    }
+
+    .stat-item {
+      display: flex;
+      flex-direction: column;
+      min-width: 0;
+    }
+
+    .stat-num {
+      font-family: var(--serif);
+      font-size: 36px;
+      font-weight: 600;
+      line-height: 1;
+      color: var(--text);
+      letter-spacing: -0.02em;
+    }
+
+    .stat-num em {
+      font-style: italic;
+      color: var(--accent);
+      font-weight: 500;
+    }
+
+    .stat-label {
+      font-family: var(--mono);
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--text-muted);
+      margin-top: 8px;
+      font-weight: 500;
+    }
+
+    .stat-divider {
+      width: 1px;
+      height: 36px;
+      background: var(--border);
+    }
+
+    /* ABOUT */
     .about-grid {
       display: grid;
       grid-template-columns: 1.5fr 1fr;
@@ -399,7 +434,7 @@
       font-weight: 500;
     }
 
-    /* ---------- TECH STACK ---------- */
+    /* STACK */
     .stack-categories {
       display: flex;
       flex-direction: column;
@@ -449,7 +484,7 @@
       opacity: 0.5;
     }
 
-    /* ---------- EXPERIENCE TIMELINE ---------- */
+    /* TIMELINE */
     .timeline {
       position: relative;
       padding-left: 32px;
@@ -497,7 +532,6 @@
       font-size: 20px;
       font-weight: 500;
       margin-bottom: 2px;
-      font-variation-settings: "opsz" 36;
     }
 
     .timeline-org {
@@ -514,7 +548,7 @@
       max-width: 680px;
     }
 
-    /* ---------- PROJECTS ---------- */
+    /* PROJECTS */
     .projects-grid {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
@@ -591,7 +625,6 @@
       font-size: 22px;
       line-height: 1.2;
       letter-spacing: -0.01em;
-      font-variation-settings: "opsz" 36;
     }
 
     .project-tagline {
@@ -640,7 +673,7 @@
 
     .project-link:hover { gap: 10px; }
 
-    /* ---------- EDUCATION ---------- */
+    /* EDUCATION */
     .edu-grid {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
@@ -660,7 +693,6 @@
       font-weight: 500;
       font-size: 18px;
       margin-bottom: 4px;
-      font-variation-settings: "opsz" 36;
     }
 
     .edu-school {
@@ -704,7 +736,7 @@
       text-transform: uppercase;
     }
 
-    /* ---------- BEYOND CARD ---------- */
+    /* BEYOND */
     .beyond-card {
       background: linear-gradient(135deg, #0F1722 0%, #1E293B 100%);
       color: white;
@@ -728,7 +760,7 @@
     .beyond-number {
       font-family: var(--serif);
       font-size: 96px;
-      font-weight: 400;
+      font-weight: 600;
       line-height: 1;
       letter-spacing: -0.03em;
       background: linear-gradient(135deg, #3B82F6, #93C5FD);
@@ -736,13 +768,12 @@
       -webkit-text-fill-color: transparent;
       background-clip: text;
       margin-bottom: 8px;
-      font-variation-settings: "opsz" 144;
     }
 
     .beyond-card h2 { color: white; }
     .beyond-card p { color: rgba(248, 250, 252, 0.75); max-width: 580px; }
 
-    /* ---------- CERTS ---------- */
+    /* CERTS */
     .certs {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
@@ -765,7 +796,7 @@
     .cert strong { display: block; font-weight: 500; }
     .cert span { font-size: 12px; color: var(--text-muted); }
 
-    /* ---------- CONNECT ---------- */
+    /* CONNECT */
     .connect-card {
       background: var(--card-bg);
       border: 1px solid var(--border);
@@ -784,7 +815,7 @@
       flex-wrap: wrap;
     }
 
-    /* ---------- FOOTER ---------- */
+    /* FOOTER */
     footer {
       padding-top: 32px;
       border-top: 1px solid var(--border);
@@ -795,7 +826,7 @@
       letter-spacing: 0.03em;
     }
 
-    /* ---------- MOBILE ---------- */
+    /* MOBILE */
     .mobile-header { display: none; }
 
     @media (max-width: 968px) {
@@ -828,7 +859,6 @@
         font-size: 16px;
         font-weight: 500;
         flex-grow: 1;
-        font-variation-settings: "opsz" 36;
       }
 
       .mobile-menu-btn {
@@ -877,10 +907,14 @@
       .connect-card { padding: 36px 24px; }
 
       section { margin-bottom: 64px; }
-      .hero { padding-top: 24px; }
+      .hero { padding-top: 12px; }
+
+      .hero-stats { gap: 20px; }
+      .stat-divider { display: none; }
+      .stat-item { flex: 1 1 calc(50% - 10px); }
+      .stat-num { font-size: 28px; }
     }
 
-    /* ---------- HONEYCOMB DECORATION ---------- */
     .accent-line {
       width: 80px;
       height: 4px;
@@ -893,10 +927,9 @@
 
 <body>
 
-  <!-- MOBILE HEADER -->
   <header class="mobile-header">
     <div class="mobile-avatar">
-      <img src="assets/img/avatar.jpg" alt="Mohammed Shaik" />
+      <img src="ppp.png" alt="Mohammed Shaik" />
     </div>
     <div class="mobile-name">Mohammed Shaik</div>
     <button class="mobile-menu-btn" id="menuBtn" aria-label="Toggle menu"><i class="ph ph-list"></i></button>
@@ -904,10 +937,9 @@
 
   <div class="layout">
 
-    <!-- ============ SIDEBAR ============ -->
     <aside class="sidebar" id="sidebar">
       <div class="avatar-wrap">
-        <img src="/ppp.png" alt="Mohammed Shaik" />
+        <img src="ppp.png" alt="Mohammed Shaik" />
       </div>
 
       <div>
@@ -946,29 +978,50 @@
       </div>
     </aside>
 
-    <!-- ============ MAIN CONTENT ============ -->
     <main class="main">
 
-      <!-- ============ HERO ============ -->
+      <!-- HERO -->
       <section id="hero" class="hero">
         <div class="hero-greeting" data-aos="fade-up">Hello, I'm</div>
         <h1 data-aos="fade-up" data-aos-delay="100">
           Mohammed Shaik.<br />I build <em>production</em><br />ML &amp; GenAI systems.
         </h1>
         <p class="hero-quote" data-aos="fade-up" data-aos-delay="200">
-          I came to data science from engineering — which taught me that <strong>systems either work in the real world or they don't</strong>. I build ML and GenAI systems that fall on the "work" side of that line.
+          I came to data science from engineering. That background taught me one thing above all: <strong>systems either work in the real world or they don't</strong>. I build ML and GenAI systems that fall on the "work" side of that line.
         </p>
         <div class="hero-cta" data-aos="fade-up" data-aos-delay="300">
           <a href="#projects" class="btn btn-primary">
             <i class="ph ph-rocket-launch"></i> See My Work
           </a>
-          <a href="/Mohammed_Shaik_Resume.pdf" class="btn btn-secondary" target="_blank">
+          <a href="./Mohammed_Shaik_Resume.pdf" class="btn btn-secondary" target="_blank">
             <i class="ph ph-download-simple"></i> Download Resume
           </a>
         </div>
+
+        <div class="hero-stats" data-aos="fade-up" data-aos-delay="400">
+          <div class="stat-item">
+            <div class="stat-num">2<em>+</em></div>
+            <div class="stat-label">Years of Experience</div>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <div class="stat-num">6<em>+</em></div>
+            <div class="stat-label">Featured Projects</div>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <div class="stat-num">3.95</div>
+            <div class="stat-label">M.S. GPA at GWU</div>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <div class="stat-num">0.84</div>
+            <div class="stat-label">Production Model AUC</div>
+          </div>
+        </div>
       </section>
 
-      <!-- ============ ABOUT ============ -->
+      <!-- ABOUT -->
       <section id="about">
         <div class="eyebrow" data-aos="fade-up">About</div>
         <h2 data-aos="fade-up">Engineering precision, applied to data.</h2>
@@ -977,13 +1030,13 @@
         <div class="about-grid">
           <div data-aos="fade-up">
             <p class="lead" style="margin-bottom: 20px;">
-              Recently completed my M.S. in Data Science at <strong>The George Washington University</strong>, while working as a Data Analyst at the Milken Institute School of Public Health.
+              I recently completed my M.S. in Data Science at <strong>The George Washington University</strong>, while working as a Data Analyst at the Milken Institute School of Public Health.
             </p>
             <p>
-              Prior: a year at <strong>Tata Consultancy Services</strong> building HIPAA-compliant clinical ML infrastructure for a Fortune 500 medical devices client — Medallion ETL pipelines, shadow-deployment validation, and feature engineering that contributed to lifting downstream model AUC from <strong>0.76 → 0.84</strong>.
+              Before that, I spent a year at <strong>Tata Consultancy Services</strong> building HIPAA-compliant clinical ML infrastructure for a Fortune 500 medical devices client. The work included Medallion ETL pipelines, shadow-deployment validation, and feature engineering that contributed to lifting downstream model AUC from <strong>0.76 to 0.84</strong>.
             </p>
             <p>
-              Now open to full-time Data Scientist and ML Engineer roles. I work across the full ML lifecycle — data engineering, modeling, A/B testing, production deployment, and stakeholder communication.
+              I'm now open to full-time Data Scientist and ML Engineer roles. My work spans the full ML lifecycle, from data engineering and modeling through A/B testing, production deployment, and stakeholder communication.
             </p>
           </div>
 
@@ -1006,7 +1059,7 @@
               <i class="ph ph-briefcase"></i>
               <div>
                 <div class="fact-label">Experience</div>
-                <div class="fact-value">2+ years across healthcare &amp; fintech</div>
+                <div class="fact-value">2+ years across healthcare and fintech</div>
               </div>
             </div>
             <div class="fact">
@@ -1034,7 +1087,7 @@
         </div>
       </section>
 
-      <!-- ============ TECH STACK ============ -->
+      <!-- TECH STACK -->
       <section id="stack">
         <div class="eyebrow" data-aos="fade-up">Toolbox</div>
         <h2 data-aos="fade-up">Tech Stack</h2>
@@ -1088,7 +1141,7 @@
         </div>
       </section>
 
-      <!-- ============ EXPERIENCE ============ -->
+      <!-- EXPERIENCE -->
       <section id="experience">
         <div class="eyebrow" data-aos="fade-up">Experience</div>
         <h2 data-aos="fade-up">Where I've built things</h2>
@@ -1096,35 +1149,35 @@
 
         <div class="timeline">
           <div class="timeline-item" data-aos="fade-up">
-            <div class="timeline-date">MAR 2025 — MAY 2026</div>
+            <div class="timeline-date">MAR 2025 to MAY 2026</div>
             <div class="timeline-role">Data Analyst</div>
             <div class="timeline-org">George Washington University · Milken Institute</div>
             <p class="timeline-desc">
-              Reconciled $2M+ in historical funding allocations to fix corrupted inputs to departmental forecasting models. Built automated Python validation pipelines feeding live executive dashboards, and applied ANOVA on demographic and program variables to surface retention drivers — informing program redesign that closed a 25% attrition gap.
+              Reconciled $2M+ in historical funding allocations to fix corrupted inputs to departmental forecasting models. Built automated Python validation pipelines feeding live executive dashboards, and applied ANOVA on demographic and program variables to surface retention drivers. The findings informed a program redesign that closed a 25% attrition gap.
             </p>
           </div>
 
           <div class="timeline-item" data-aos="fade-up">
-            <div class="timeline-date">JUN 2023 — JUN 2024</div>
+            <div class="timeline-date">JUN 2023 to JUN 2024</div>
             <div class="timeline-role">Software Engineer (Data &amp; ML)</div>
             <div class="timeline-org">Tata Consultancy Services</div>
             <p class="timeline-desc">
-              Built clinical risk-scoring ML infrastructure for a Fortune 500 medical devices client. Engineered PySpark feature pipelines and Medallion ETL syncing 12+ PHI sources to Snowflake, enabling real-time risk-scoring inference. Validated new pipelines via 30-day A/B testing against legacy heuristics. Designed HIPAA-compliant validation framework (Great Expectations) cutting data quality incidents 20% in production.
+              Built clinical risk-scoring ML infrastructure for a Fortune 500 medical devices client. Engineered PySpark feature pipelines and Medallion ETL syncing 12+ PHI sources to Snowflake, enabling real-time risk-scoring inference. Validated new pipelines via 30-day A/B testing against legacy heuristics. Designed a HIPAA-compliant validation framework using Great Expectations, cutting data quality incidents 20% in production.
             </p>
           </div>
 
           <div class="timeline-item" data-aos="fade-up">
-            <div class="timeline-date">MAR 2023 — MAY 2023</div>
+            <div class="timeline-date">MAR 2023 to MAY 2023</div>
             <div class="timeline-role">Data Analyst Intern</div>
             <div class="timeline-org">Tata Consultancy Services</div>
             <p class="timeline-desc">
-              Supported a global capital markets client — tuned SQL queries on OLTP systems handling 50M+ daily transactions, built Tableau dashboards (LOD expressions, parameters) for self-service analytics, and conducted Pearson correlation analysis across 20+ metrics to define 15 strategic KPIs for risk and trading reporting.
+              Supported a global capital markets client. Tuned SQL queries on OLTP systems handling 50M+ daily transactions, built Tableau dashboards (LOD expressions, parameters) for self-service analytics, and conducted Pearson correlation analysis across 20+ metrics to define 15 strategic KPIs for risk and trading reporting.
             </p>
           </div>
         </div>
       </section>
 
-      <!-- ============ PROJECTS ============ -->
+      <!-- PROJECTS -->
       <section id="projects">
         <div class="eyebrow" data-aos="fade-up">Selected Work</div>
         <h2 data-aos="fade-up">Featured Projects</h2>
@@ -1141,7 +1194,7 @@
               <div class="project-tagline">Hybrid RAG · 100k+ AWS pages</div>
             </div>
             <p class="project-desc">
-              Engineered hybrid retrieval fusing <strong>bge-m3 (dense)</strong> + <strong>BM25 (sparse)</strong> via Reciprocal Rank Fusion. Deployed <strong>Qwen-2.5-7B-Instruct</strong> on T4 GPU achieving <strong>sub-200ms latency</strong> for citation-backed answers across 800k+ vector embeddings.
+              Engineered hybrid retrieval fusing <strong>bge-m3 (dense)</strong> and <strong>BM25 (sparse)</strong> via Reciprocal Rank Fusion. Deployed <strong>Qwen-2.5-7B-Instruct</strong> on a T4 GPU achieving <strong>sub-200ms latency</strong> for citation-backed answers across 800k+ vector embeddings.
             </p>
             <div class="project-tags">
               <span class="project-tag">Python</span>
@@ -1163,7 +1216,7 @@
               <div class="project-tagline">MILP across 37k census tracts</div>
             </div>
             <p class="project-desc">
-              Six-phase optimization pipeline processing <strong>37,093 census tracts</strong> across 20 East Coast states. Two MILP models for coverage + hub minimization. Encoded federal <strong>Justice40 mandate</strong> as constraint, lifting equity compliance from <strong>12% → 41%</strong>.
+              A six-phase optimization pipeline processing <strong>37,093 census tracts</strong> across 20 East Coast states. Two MILP models for coverage and hub minimization. Encoded the federal <strong>Justice40 mandate</strong> as a hard constraint, lifting equity compliance from <strong>12% to 41%</strong>.
             </p>
             <div class="project-tags">
               <span class="project-tag">Python</span>
@@ -1185,7 +1238,7 @@
               <div class="project-tagline">Deep CV on AWS EC2</div>
             </div>
             <p class="project-desc">
-              Pipeline on AWS EC2 (T4 GPU) processing <strong>18GB COCO dataset (118k images)</strong>. Multi-subsystem framework: ResNet-18 U-Net for colorization + Depthwise Separable U-Net for denoising. <strong>85% compression</strong>, <strong>2.5× faster convergence</strong>, <strong>25 dB PSNR</strong>.
+              A pipeline on AWS EC2 (T4 GPU) processing the <strong>18GB COCO dataset (118k images)</strong>. Multi-subsystem framework with ResNet-18 U-Net for colorization and a Depthwise Separable U-Net for denoising. Achieved <strong>85% compression</strong>, <strong>2.5× faster convergence</strong>, and <strong>25 dB PSNR</strong>.
             </p>
             <div class="project-tags">
               <span class="project-tag">PyTorch</span>
@@ -1207,7 +1260,7 @@
               <div class="project-tagline">30-day clinical risk prediction</div>
             </div>
             <p class="project-desc">
-              Trained Logistic Regression, Random Forest, and XGBoost on clinical &amp; demographic features. Best result: <strong>Random Forest (F1: 64.1%, AUC: 0.742)</strong> — surfacing lab procedures, medications, and length of stay as top predictors. Handled class imbalance via weighting.
+              Trained Logistic Regression, Random Forest, and XGBoost on clinical and demographic features. The best result was <strong>Random Forest (F1: 64.1%, AUC: 0.742)</strong>, surfacing lab procedures, medications, and length of stay as top predictors. Handled class imbalance via weighting.
             </p>
             <div class="project-tags">
               <span class="project-tag">Python</span>
@@ -1226,10 +1279,10 @@
             </div>
             <div>
               <h3 class="project-title">IPL Win Predictor</h3>
-              <div class="project-tagline">Real-time ball-by-ball cricket prediction</div>
+              <div class="project-tagline">Real-time ball-by-ball prediction</div>
             </div>
             <p class="project-desc">
-              Built <strong>XGBoost</strong> model on 500+ historical IPL matches with engineered live in-game features. Designed confidence-weighted blend-in algorithm stabilizing early-over volatility, reducing forecast uncertainty by <strong>60%</strong>. Deployed live Streamlit web app.
+              Built an <strong>XGBoost</strong> model on 500+ historical IPL matches with engineered live in-game features. Designed a confidence-weighted blend-in algorithm that stabilized early-over volatility, reducing forecast uncertainty by <strong>60%</strong>. Deployed as a live Streamlit web app.
             </p>
             <div class="project-tags">
               <span class="project-tag">XGBoost</span>
@@ -1266,7 +1319,7 @@
         </div>
       </section>
 
-      <!-- ============ EDUCATION ============ -->
+      <!-- EDUCATION -->
       <section id="education">
         <div class="eyebrow" data-aos="fade-up">Education</div>
         <h2 data-aos="fade-up">Academic Foundation</h2>
@@ -1280,7 +1333,7 @@
               <strong>Coursework:</strong> Deep Learning, Data Mining, Mathematics in Machine Learning, Data Analytics, Data Visualization, NLP
             </div>
             <div class="edu-meta">
-              <span>2024 — 2026</span>
+              <span>2024 to 2026</span>
               <span class="gpa-pill">GPA: 3.95</span>
             </div>
           </div>
@@ -1289,15 +1342,14 @@
             <div class="edu-degree">B.Tech. Electronics &amp; Communication Engineering</div>
             <div class="edu-school">VNR Vignana Jyothi Institute of Engineering &amp; Technology</div>
             <div class="edu-coursework">
-              Engineering foundation in signal processing, digital systems, and embedded computing — the rigor that shaped how I approach data science today.
+              Engineering foundation in signal processing, digital systems, and embedded computing. That rigor shaped how I approach data science today.
             </div>
             <div class="edu-meta">
-              <span>2019 — 2023</span>
+              <span>2019 to 2023</span>
             </div>
           </div>
         </div>
 
-        <!-- Certifications inside Education -->
         <h3 style="margin-top: 56px; margin-bottom: 20px;" data-aos="fade-up">Certifications</h3>
         <div class="certs">
           <div class="cert" data-aos="fade-up">
@@ -1331,7 +1383,7 @@
         </div>
       </section>
 
-      <!-- ============ BEYOND ============ -->
+      <!-- BEYOND -->
       <section id="beyond">
         <div class="eyebrow" data-aos="fade-up">Beyond the Day Job</div>
         <h2 data-aos="fade-up">Audience analytics, in practice.</h2>
@@ -1341,18 +1393,18 @@
           <div class="beyond-number">15K+</div>
           <h2 style="font-size: 28px; margin-bottom: 16px;">Organic Followers Built From Scratch</h2>
           <p>
-            I built and scaled a digital content platform (Instagram: <strong style="color: #93C5FD;">@never_before_ever_after</strong>) to <strong style="color: white;">15,000+ organic followers</strong> — applying data-driven content strategy, audience segmentation, and engagement analytics in practice. Understanding what makes humans return to a feed taught me more about retention metrics than any course could.
+            I built and scaled a digital content platform on Instagram (<strong style="color: #93C5FD;">@never_before_ever_after</strong>) to <strong style="color: white;">15,000+ organic followers</strong> by applying data-driven content strategy, audience segmentation, and engagement analytics in practice. Understanding what makes humans return to a feed taught me more about retention metrics than any course could.
           </p>
         </div>
       </section>
 
-      <!-- ============ CONNECT ============ -->
+      <!-- CONNECT -->
       <section id="connect">
         <div class="connect-card" data-aos="fade-up">
           <div class="eyebrow" style="justify-content: center;">Let's Connect</div>
           <h2>Always open to a conversation.</h2>
           <p>
-            On <strong>production ML</strong>, <strong>GenAI applications</strong>, <strong>data systems</strong> — and roles where I can build them.
+            On <strong>production ML</strong>, <strong>GenAI applications</strong>, <strong>data systems</strong>, and roles where I can build them.
           </p>
           <div class="connect-buttons">
             <a href="mailto:m.shaik@gwu.edu" class="btn btn-primary">
@@ -1368,7 +1420,6 @@
         </div>
       </section>
 
-      <!-- ============ FOOTER ============ -->
       <footer>
         © 2026 Mohammed Ismail Sarfaraz Shaik · Built with intention
       </footer>
@@ -1376,12 +1427,10 @@
     </main>
   </div>
 
-  <!-- AOS Animations -->
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
     AOS.init({ duration: 600, easing: 'ease-out-cubic', once: true, offset: 60 });
 
-    // Mobile menu toggle
     const menuBtn = document.getElementById('menuBtn');
     const sidebar = document.getElementById('sidebar');
     if (menuBtn) {
@@ -1391,7 +1440,6 @@
         icon.className = sidebar.classList.contains('open') ? 'ph ph-x' : 'ph ph-list';
       });
 
-      // Close menu on nav click
       sidebar.querySelectorAll('a').forEach(link => {
         link.addEventListener('click', () => {
           if (window.innerWidth < 968) {
